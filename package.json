@@ -10,6 +10,7 @@
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",
     "preview": "vite preview",
+    "pre-deploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
